@@ -1,7 +1,9 @@
 <head>
 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>    
-    $.get("https://socialclub.rockstargames.com/events?gameId=GTAV", function(response){
+    var url = "https://cors-anywhere.herokuapp.com/https://socialclub.rockstargames.com/events?gameId=GTAV";
+    $.get(url, function(response){
+        alert('0');
         console.log(response);
     });
 </script>
