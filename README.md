@@ -1,2 +1,2 @@
-# gta_website
-Website that scrapes GTA 5's online weekly deals and updates prices accordingly. Can also calculate the cost of purchasing items and tell users the last time an item was put on sale
+# minesweeper
+A C++ program that creates a Minesweeper map for the player to play. The player can select from a few different board sizes and bomb numbers depending on the desired difficulty.
